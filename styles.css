@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+}
+
+.game-container {
+    text-align: center;
+}
+.title {
+    font-size: xx-large;
+    color: #33ff00;
+    margin-bottom: 30px; /* Khoảng cách dưới tiêu đề */
+}
+canvas {
+    background-color: #000000;
+    border: 2px solid #d400ff;
+}
+
+.score {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #33ff00;
+}
